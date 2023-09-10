@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div><video src="/snow.mp4" muted autoplay loop></video></div>
+      <h1>Temperature Converter</h1>
+      <div class="fromDiv">
+        <h3>From</h3>
+        <select name="" id="fromBox">
+          <option value="" class="options">Select</option>
+          <option value="Celsius" class="options">Celsius (°C)</option>
+          <option value="Fahrenheit" class="options">Fahrenheit (°F)</option>
+          <option value="Kelvin">Kelvin (K)</option>
+          <option value="Rankine">Rankine (°R)</option>
+          <option value="Réaumur">Réaumur (°Ré)</option>
+        </select>
+      </div>
+      <div class="toDiv">
+        <h3>To</h3>
+        <select name="" id="" class="options">
+          <option value="" class="options">Select</option>
+          <option value="Celsius" class="options">Celsius (°C)</option>
+          <option value="Fahrenheit" class="options">Fahrenheit (°F)</option>
+          <option value="Kelvin">Kelvin (K)</option>
+          <option value="Rankine">Rankine (°R)</option>
+          <option value="Réaumur">Réaumur (°Ré)</option>
+        </select>
+      </div>
+      <div>
+        <p>Enter the Temperature Value</p>
+        <input type="number" class="inputBox" />
+      </div>
+      <button class="convertBtn">Convert</button>
+      <div class="resultBox"></div>
+    </div>
+    <script defer src="script.js"></script>
+  </body>
+</html>
